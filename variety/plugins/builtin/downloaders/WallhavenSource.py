@@ -63,7 +63,7 @@ class WallhavenSource(ConfigurableImageSource):
             "You can setup <a href='https://wallhaven.cc/settings/account'>your own API key</a> to gain "
             "access to <b>not-safe-for-work</b> images, please use this feature carefully. Note that you may need "
             "to login <a href='http://wallhaven.cc'>Wallhaven.cc</a> to get your own API key "
-            "in <b>Account Settings</b> under <b>API Key</b>"
+            "in <b>Account Settings</b> under <b>API Key</b>."
         )
 
     def get_ui_short_instruction(self):
