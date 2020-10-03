@@ -143,7 +143,7 @@ class WallhavenDownloader(DefaultDownloader):
                 # missing or unparseable resolution - consider ok
                 pass
 
-            if self.is_in_banned(result):
+            if self.is_in_banned(result['url']):
                 continue
 
             queue.append(result)
